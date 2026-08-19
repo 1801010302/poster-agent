@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="朋友圈海报智能体">
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#5B16C9"/>
+  <rect x="13" y="10" width="33" height="44" rx="7" fill="#FFFDF8"/>
+  <rect x="19" y="17" width="21" height="6" rx="3" fill="#FF8A1F"/>
+  <rect x="19" y="29" width="17" height="4" rx="2" fill="#D8C7FA"/>
+  <rect x="19" y="37" width="12" height="4" rx="2" fill="#D8C7FA"/>
+  <path d="M47 32.5c1.2 6.8 3.7 9.3 10.5 10.5-6.8 1.2-9.3 3.7-10.5 10.5-1.2-6.8-3.7-9.3-10.5-10.5 6.8-1.2 9.3-3.7 10.5-10.5Z" fill="#C8FF19" stroke="#160A3A" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
