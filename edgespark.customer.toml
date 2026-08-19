@@ -1,0 +1,6 @@
+[server]
+path = "server"
+
+[web]
+path = "web"
+output_path = "web/dist"
