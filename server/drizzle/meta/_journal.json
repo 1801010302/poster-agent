@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785941485120,
+      "tag": "0000_initial_poster_platform",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785947504374,
+      "tag": "0001_slim_alex_wilder",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1785980201380,
+      "tag": "0002_add_generation_job_state",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1785987476149,
+      "tag": "0003_add_onboarding_tutorials",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1786003918260,
+      "tag": "0004_add_saved_reference_assets",
+      "breakpoints": true
+    }
+  ]
+}
