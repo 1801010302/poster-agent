@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# EdgeSpark local state
+.edgespark/
+
+# Local data, logs, caches and coverage
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.cache/
+coverage/
+tmp/
+temp/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# TypeScript and tooling
+*.tsbuildinfo
+.eslintcache
