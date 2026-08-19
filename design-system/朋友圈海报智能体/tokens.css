@@ -1,0 +1,121 @@
+:root {
+  color-scheme: light;
+
+  /* Brand primitives */
+  --violet-950: #160a3a;
+  --violet-900: #2e0a8a;
+  --violet-800: #4310aa;
+  --violet-700: #5b16c9;
+  --violet-600: #6d28d9;
+  --violet-500: #7c3aed;
+  --violet-200: #d8c7fa;
+  --violet-100: #ece4ff;
+  --violet-050: #f7f3ff;
+  --lime-500: #c8ff19;
+  --lime-600: #b5f000;
+  --lime-700: #9ed500;
+  --lime-100: #eeffc0;
+  --orange-500: #ff8a1f;
+  --orange-600: #e66c00;
+  --orange-100: #fff0df;
+  --warm-white: #fffdf8;
+  --white: #ffffff;
+  --ink: #160a3a;
+  --muted-ink: #665e75;
+  --soft-border: #e8dff5;
+
+  /* Semantic colors */
+  --color-background: var(--warm-white);
+  --color-surface: var(--white);
+  --color-surface-subtle: var(--violet-050);
+  --color-text-primary: var(--ink);
+  --color-text-secondary: var(--muted-ink);
+  --color-border: var(--soft-border);
+  --color-border-strong: var(--violet-200);
+  --color-brand: var(--violet-700);
+  --color-brand-strong: var(--violet-900);
+  --color-on-brand: var(--white);
+  --color-on-brand-surface: rgb(255 255 255 / 10%);
+  --color-on-brand-surface-subtle: rgb(255 255 255 / 8%);
+  --color-on-brand-divider: rgb(255 255 255 / 18%);
+  --color-action: var(--lime-500);
+  --color-action-hover: var(--lime-600);
+  --color-action-pressed: var(--lime-700);
+  --color-on-action: var(--ink);
+  --color-attention: var(--orange-500);
+  --color-attention-text: var(--orange-600);
+  --color-focus-ring: rgb(124 58 237 / 30%);
+  --color-danger: #c92a45;
+  --color-danger-surface: #fff0f3;
+  --color-success: #267a35;
+  --color-success-surface: var(--lime-100);
+  --color-warning: #9a4b00;
+  --color-warning-surface: var(--orange-100);
+
+  /* Typography */
+  --font-sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Inter, system-ui, sans-serif;
+  --font-latin: Inter, "SF Pro Text", system-ui, sans-serif;
+  --text-display: clamp(2.125rem, 1.3rem + 2.4vw, 3.25rem);
+  --text-page-title: clamp(1.875rem, 1.3rem + 1.5vw, 2.5rem);
+  --text-section-title: clamp(1.5rem, 1.25rem + 0.6vw, 1.75rem);
+  --text-card-title: 1.25rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-label: 0.875rem;
+  --text-caption: 0.8125rem;
+  --text-overline: 0.75rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* Geometry */
+  --radius-sm: 0.625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-pill: 999px;
+
+  /* Elevation */
+  --shadow-menu: 0 12px 36px rgb(46 10 138 / 14%);
+  --shadow-modal: 0 24px 64px rgb(22 10 58 / 22%);
+  --shadow-action: 0 10px 28px rgb(200 255 25 / 28%);
+
+  /* Motion */
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 320ms;
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  /* Layout */
+  --header-height: 4.5rem;
+  --content-max: 86.5rem;
+  --admin-sidebar-width: 17.5rem;
+  --admin-content-max: 100rem;
+  --page-gutter: clamp(1rem, 2.5vw, 2.5rem);
+  --control-min-height: 3rem;
+  --touch-target: 2.75rem;
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-dropdown: 40;
+  --z-modal: 100;
+  --z-toast: 1000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 1ms;
+    --motion-base: 1ms;
+    --motion-slow: 1ms;
+  }
+}
